@@ -20,5 +20,3 @@ class Solution:
             index += zigzag
 
         return "".join(strDict.values())
-if __name__ == '__main__':
-    print(Solution().convert(s="PAYPALISHIRING", numRows=4))
